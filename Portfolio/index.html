@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ezequiel De Sousa | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <h1>Ezequiel De Sousa</h1>
+        <p>Web Developer</p>
+    </header>
+    <nav>
+        <a href="#about"><i class='bx bxs-user'></i>About Me</a>
+        <a href="#work"><i class='bx bx-briefcase'></i>My Work</a>
+        <a href="#skills"><i class='bx bx-code-alt'></i>Skills</a>
+        <a href="#projects"><i class='bx bx-folder'></i>Projects</a>
+        <a href="#testimonials"><i class='bx bx-message-square-detail'></i>Testimonials</a>
+        <a href="#contact"><i class='bx bx-mail-send'></i>Contact</a>
+      </nav>
+      <!-- Up Arrow Button -->
+  <div class="up-arrow-btn" id="upArrowBtn">
+    <i class='bx bxs-up-arrow'></i>
+  </div>
+    <section id="about">
+        <img src="Images1/headshot1.png" alt="Ezequiel De Sousa's Headshot">
+        <h2 class="hero-title">Get to Know Me</h2>
+        <p>
+            <strong>Hi there!</strong> I'm <strong>Ezequiel De Sousa</strong>, a passionate web developer originally from Brazil and now based in the USA. I was born in October 1996 and graduated from high school in 2015. Since then, I've honed my skills in HTML, CSS, PHP, and JavaScript, and I'm <strong class="highlight-text">enthusiastic about creating elegant and functional web solutions</strong> that leave a lasting impact. Whether it's designing user-friendly interfaces or developing robust back-end systems, I love solving challenges and bringing ideas to life through code.
+        </p>
+        <p>
+            With a keen eye for detail and a strong focus on user experience, I'm dedicated to crafting websites that not only look great but also deliver seamless interactions. My curiosity and passion for learning drive me to stay up-to-date with the latest technologies and best practices in the web development industry. By staying ahead of the curve, I ensure that my projects are cutting-edge and of the highest quality.
+        </p>
+    </section>     
+    <section id="work">
+        <h2>My Work</h2>
+        <p>As a web developer, I take pride in crafting visually appealing and user-friendly websites. Here is my showcase website that demonstrates some of my best work and projects: <a href="[Insert Your Website URL]">[Insert Your Website URL]</a></p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <h3>Front-end Development:</h3>
+        <ul>
+            <p>HTML5: Proficient in creating well-structured and semantic web pages.</p>
+            <p>CSS3: Skilled in designing responsive layouts and styling web elements.</p>
+            <p>JavaScript: Capable of developing interactive and dynamic web applications.</p>
+        </ul>
+        <h3>Back-end Development:</h3>
+        <ul>
+            <p>PHP: Experienced in server-side scripting and building web applications.</p>
+        </ul>
+        <h3>Web Development Tools:</h3>
+        <ul>
+            <p>Version Control (Git): Familiar with collaborative development using Git.</p>
+            <p>Code Editors: Proficient in using popular code editors like Visual Studio Code.</p>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+    
+        <div class="project">
+            <h3>Portfolio Showcase Website</h3>
+            <p>
+                As a web developer, one of my most significant projects is my own Portfolio Showcase Website. I designed and built this website to showcase my web development skills and projects in a visually appealing and user-friendly manner.
+            </p>
+            <p>
+                The website is developed using HTML, CSS, PHP, and JavaScript, which are the core technologies I specialize in. The site features a clean and professional design, with a consistent color scheme, fonts, and layout to ensure an excellent user experience for visitors.
+            </p>
+            <p>
+                To make the website responsive and accessible across various devices, I utilized CSS media queries and followed best practices for web accessibility.
+            </p>
+            <p>
+                The Portfolio Showcase Website includes sections such as "About Me," "My Work," "Skills," "Projects," "Testimonials," and "Contact." Each section is meticulously crafted to provide relevant information and showcase my abilities as a web developer effectively.
+            </p>
+            <p>
+                Whether you are a potential client or an employer, this website serves as a comprehensive overview of my expertise and past projects. I am proud to present my work through this platform, and I look forward to connecting with you to discuss potential collaborations or job opportunities.
+            </p>
+            <p>
+                You can visit the live website to explore my projects and learn more about me. Feel free to reach out through the contact section if you have any inquiries or if you would like to work together on exciting web development projects.
+            </p>
+            <p>
+                <strong>Website URL:</strong> <a href="https://www.example.com" target="_blank">https://www.example.com</a>
+            </p>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <!-- Include your testimonials or feedback here -->
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: [Your Email Address]</p>
+        <p>Fiverr Profile: [Your Fiverr Profile URL]</p>
+        <p>LinkedIn: [Your LinkedIn Profile URL]</p>
+        <p>GitHub: [Your GitHub Profile URL]</p>
+        <p>Phone: [Your Phone Number (optional)]</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Ezequiel De Sousa | All rights reserved</p>
+        <p>Designed by <a href="#" target="_blank">Ezequiel De Sousa</a></p>
+        <p><a href="index.html">Back to Home</a></p>
+    </footer>
+    <script>
+        const upArrowBtn = document.getElementById('upArrowBtn');
+    
+        // Show the "Up" arrow button when the user scrolls down
+        window.addEventListener('scroll', () => {
+          if (window.pageYOffset > 300) {
+            upArrowBtn.classList.add('show');
+          } else {
+            upArrowBtn.classList.remove('show');
+          }
+        });
+    
+        // Scroll back to the top when the button is clicked
+        upArrowBtn.addEventListener('click', () => {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+        });
+      </script>
+</body>
+</html>
